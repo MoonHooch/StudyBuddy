@@ -14,6 +14,7 @@ public class FrameManager {
         frame.setTitle(title);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Application closes upon exit
         frame.setSize(DEFAULT_SIZE);
+        frame.setBackground(new Color(0x4e1f77));
         frame.setLayout(new BorderLayout());
         frame.setResizable(false);
 

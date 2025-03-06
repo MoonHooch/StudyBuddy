@@ -1,3 +1,74 @@
 Subject,Flashcard,Description
-Java,JFrame,"JFrames are a Java thing"
-Greek,Arkouda,Bear
+Java,JFrame,JFrames are a Java thing
+Greek,αρκούδα,Bear
+Greek,κούκλα,Doll
+Java,JPanel,JPanels contain other Swing Framework elements such as Jframes
+Spanish,arroz,Rice
+American History,Bill of Rights, A document comprised of the first ten amendments to the United States Constitution
+Java,Button,A Swing component that triggers actions
+Math,Pi,Ratio of the circumference to the diameter of a circle
+English,Apple,A round fruit
+Spanish,agua,Water
+French,chien,Dog
+Italian,pizza,A popular Italian dish
+Biology,Cell,The basic unit of life
+Chemistry,H2O,Water molecule
+Physics,Force,Any interaction that causes a change in motion
+Geography,Earth,The planet we live on
+History,WWII,Global conflict from 1939 to 1945
+Art,Monet,Impressionist painter
+Music,Beethoven,German composer and pianist
+Literature,Hemingway,American novelist and short story writer
+Java,Array,A data structure to store multiple elements
+Greek,θάλασσα,Sea
+Spanish,libro,Book
+French,chat,Cat
+Italian,gelato,Italian ice cream
+Math,Square Root,A number that produces a specified number when multiplied by itself
+History,Revolution,An overthrow of a government or system
+Science,Atom,The basic building block of matter
+Music,Guitar,A stringed musical instrument
+Geography,Mountain,A large natural elevation of the earth’s surface
+Physics,Gravity,The force that attracts objects towards the center of the earth
+Biology,Photosynthesis,Process by which plants make food using sunlight
+Chemistry,Atom,The smallest unit of a chemical element
+Geography,Ocean,A vast body of salt water
+English,Tree,A large plant with a trunk and branches
+French,vache,Cow
+Spanish,perro,Dog
+Math,Equation,A mathematical statement that asserts the equality of two expressions
+Java,Class,A blueprint for objects in object-oriented programming
+History,Civil War,Conflict between the Northern and Southern states in the U.S.
+Art,Picasso,Spanish painter and sculptor
+Literature,Shakespeare,English playwright and poet
+Geography,Desert,A barren area of land with little rainfall
+Science,Microbe,A microscopic organism
+Music,Piano,A large keyboard instrument
+Physics,Energy,The ability to do work
+Chemistry,Molecule,Two or more atoms bonded together
+English,Flower,A reproductive structure found in flowering plants
+Java,Method,A function that belongs to a class in Java
+Math,Triangle,A polygon with three sides
+History,Empire,A group of countries or territories controlled by one ruler
+Geography,Continent,A large continuous mass of land
+French,bateau,Boat
+French,maison,House
+French,école,School
+French,pomme,Apple
+French,voiture,Car
+French,fleur,Flower
+French,arbre,Tree
+French,livre,Book
+French,soleil,Sun
+French,lune,Moon
+Spanish,cielo,Sky
+Spanish,flor,Flower
+Spanish,sol,Sun
+Biology,DNA,The molecule that carries genetic information
+Biology,Genetics,The study of heredity and variation in organisms
+Biology,Photosynthesis,The process by which plants make food using sunlight
+Biology,Mitochondria,The powerhouse of the cell
+Biology,Chlorophyll,The green pigment in plants that absorbs light
+Biology,Neuron,A nerve cell that transmits electrical impulses
+Biology,Enzyme,A protein that accelerates chemical reactions
+Biology,Evolution,The process by which species adapt over generations

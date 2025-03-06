@@ -19,11 +19,12 @@ public class PanelManager {
     public static final Dimension DESCRIPTION_AREA_SIZE = new Dimension(700, 360);
 
     // Panel Colors
-    public static final Color TITLE_PANEL_COLOR = Color.BLUE;
-    public static final Color CONTENT_PANEL_COLOR = Color.cyan;
-    public static final Color LABEL_PANEL_COLOR = Color.GRAY;
-    public static final Color CONTENT_AREA_PANEL_COLOR = Color.magenta;
-    public static final Color SPECIAL_BUTTON_COLOR = Color.GREEN;
+    public static final Color TITLE_PANEL_COLOR = new Color(0x4e1f77);
+    public static final Color CONTENT_PANEL_COLOR = new Color(0x4e1f77);
+    public static final Color LABEL_PANEL_COLOR = new Color(0x7e64a7);
+    public static final Color CONTENT_AREA_PANEL_COLOR = new Color(0x8a79b4);
+    public static final Color DESCRIPTION_AREA_COLOR = new Color(0x9a86c1);
+    public static final Color SPECIAL_BUTTON_COLOR = new Color(0x4fc453);
 
     // Types of content loaded into the contentPanel
     public enum ContentType {
@@ -246,6 +247,7 @@ public class PanelManager {
 
     public static void configureButton(JButton button, boolean isSpecial) {
         button.setFont(FontManager.BUTTON_FONT);
+        button.setForeground(FontManager.BUTTON_TEXT_COLOR);
         button.setPreferredSize(ButtonSizeManager.LARGE_BUTTON_SIZE);
         if (isSpecial) {
             button.setBackground(SPECIAL_BUTTON_COLOR);
@@ -258,6 +260,7 @@ public class PanelManager {
     }
 
     public static void configureScrollPane(JScrollPane scrollPane) {
+        scrollPane.setBorder(BorderFactory.createEmptyBorder()); // Cleans up an unwanted border
         scrollPane.getVerticalScrollBar().setPreferredSize(new Dimension(0, 0));
         scrollPane.getVerticalScrollBar().setUnitIncrement(10);
     }
@@ -290,6 +293,8 @@ public class PanelManager {
 
     public static void configureDescriptionArea(JTextArea descriptionArea) {
         descriptionArea.setFont(FontManager.BODY_FONT);
+        descriptionArea.setBackground(DESCRIPTION_AREA_COLOR);
+        descriptionArea.setForeground(FontManager.BODY_TEXT_COLOR);
         descriptionArea.setLineWrap(true);
         descriptionArea.setWrapStyleWord(true);
         descriptionArea.setEditable(false); // Make it read-only
@@ -298,10 +303,12 @@ public class PanelManager {
 
     public static void configureTitleLabel(JLabel titleLabel) {
         titleLabel.setFont(FontManager.TITLE_FONT);
+        titleLabel.setForeground(FontManager.TITLE_COLOR);
     }
 
     public static void configureContentLabel(JLabel contentLabel) {
         contentLabel.setFont(FontManager.SUBTITLE_FONT);
+        contentLabel.setForeground(FontManager.SUBTITLE_COLOR);
         contentLabel.setHorizontalAlignment(SwingConstants.CENTER);
     }
 
